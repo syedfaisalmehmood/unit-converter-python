@@ -3,7 +3,7 @@ import base64
 import os
 
 st.set_page_config(
-    page_title="UniScale ⚖️📏",
+    page_title="UniScale ⚖️",
     page_icon="📏",
     layout="centered"
 )
@@ -67,7 +67,7 @@ elif category == "🌡️ Temperature":
     unit = st.selectbox("🌡️ Select a Conversion", ["Celsius to Fahrenheit", "Fahrenheit to Celsius"])
 
 
-value = st.number_input("🧮 Enter the value to convert")
+value = st.number_input("Enter the value to convert")
 
 if st.button("Convert"):
     result = convert_units(category, value, unit)
