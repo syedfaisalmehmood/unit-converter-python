@@ -1,0 +1,53 @@
+/* Background color */
+body {
+    background-color: #1e1e1e;   color: white; /* Default text color */
+    font-family: Arial, sans-serif;
+}
+
+/* Title Styling */
+.title {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: #87CEEB; /* Light Blue */
+}
+
+/* Description Styling */
+.description {
+    text-align: center;
+    font-size: 18px;
+    color: #ffffff;
+}
+
+/* Category Heading */
+.category-heading {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    color: #ffcc00;
+}
+
+/* Styling for Select Boxes */
+div[data-testid="stSelectbox"] label {
+    color: white !important;
+    font-size: 20px !important;
+    font-weight: bold;
+}
+
+/* Input Box */
+input[type="number"] {
+    font-size: 18px;
+    color: black;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+/* Button Styling */
+button {
+    background-color: #133948 !important; /* Light Blue */
+    color: white !important;
+    font-size: 18px !important;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
